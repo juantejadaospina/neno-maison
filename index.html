@@ -1,14 +1,91 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neno Maison - Camisas Guayaberas en Lino 100%</title>
-    <link rel="icon" type="image/svg+xml" href="public/favicon.svg" media="(prefers-color-scheme: light)">
-    <link rel="icon" type="image/svg+xml" href="public/favicon-dark.svg" media="(prefers-color-scheme: dark)">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="./public/favicon.png">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
-    
+    <header class="header-principal">
+        <div class="header-contenedor">
+            <!-- Logo de la marca -->
+            <a href="index.html" class="logo-enlace">
+                <img src="./public/images/brand/logo-icon-light-transparent.png" alt="Logo de Neno Maison"
+                    class="logo-imagen">
+            </a>
+            <!-- Menu de navegacion-->
+            <nav class="navegacion-principal">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#coleccion">Colección</a></li>
+                    <li><a href="#nosotros">Nuestra Casa</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Contenido principal del sitio -->
+    <main>
+
+        <!-- Seccion Hero / Banner Principal-->
+        <section id="inicio" class="hero">
+            <div class="hero-contenido">
+                <h1>Elegancia Artesanal en Lino 100%</h1>
+                <p>Camisas guayaberas exclusivas con bordados artesanales e industriales.</p>
+                <a href="#coleccion" class="boton-primario">Ver Colección</a>
+            </div>
+        </section>
+
+        <!-- Sección Colección / Catálogo -->
+        <section id="coleccion" class="coleccion">
+            <h2 class="titulo-seccion">Nuestra Colección</h2>
+            <p class="subtitulo-seccion">Prendas elaboradas con lino de la mas alta calidad</p>
+            <div class="grid-productos">
+
+                <!-- Producto 1 -->
+                <article class="targeta-producto">
+                    <img src="./public/images/products/guayabera-blanca-manga-larga.jpg"
+                        alt="Guayabera Blanca Manga Larga de Lino" class="producto-imagen">
+                    <div class="producto-info">
+                        <h3>Guayabera Presidencial Blanca</h3>
+                        <p class="producto-descripcion">Manga larga, lino 100% colombiano con alforzas.</p>
+                        <span class="producto-precio">$280.000 COP</span>
+                        <button class="boton-producto">Ver Detalle</button>
+                    </div>
+                </article>
+
+                <!-- Producto 2 -->
+                <article class="targeta-producto">
+                    <img src="./public/images/products/guayabera-azul-manga-corta.jpg"
+                        alt="Guayabera Azul Manga Corta de Lino" class="producto-imagen">
+                    <div class="producto-info">
+                        <h3>Guayabera Caribe Azul Caribe</h3>
+                        <p class="producto-descripcion">Manga corta, fresca e ideal para clima cálido y evendos diurnos.
+                        </p>
+                        <span class="producto-precio">$240.000 COP</span>
+                        <button class="boton-producto">Ver Detalle</button>
+                    </div>
+                </article>
+
+                <!-- Producto 3 -->
+                <article class="targeta-producto">
+                    <img src="./public/images/products/guayabera-beige-manga-larga.jpg"
+                        alt="Guayabera Beige Manga Larga de Lino" class="producto-imagen">
+                    <div class="producto-info">
+                        <h3>Guayabera Tradicional Beige</h3>
+                        <p class="producto-descripcion">Manga larga, tono cálido sobrio con bordado fino industrial.</p>
+                        <span class="producto-precio">$260.000 COP</span>
+                        <button class="boton-producto">Ver Detalle</button>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
 </body>
-</html> 
+
+</html>
