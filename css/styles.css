@@ -85,4 +85,78 @@ body {
 .navegacion-principal a:hover {
     color: var(--color-dorado);
     /* Cambia al color dorado lino */
-}   
+}
+
+/* 4. SECCION HERO (BANNER PRINCIPAL) */
+
+/* Contenedor principal del banner */
+.hero {
+    background-color: #f0f4f8;
+    /* Un tono gris/azul suave que resalta sobre el fondo */
+    padding: 5rem 2rem;
+    /* 5rem arriba/abajo y 2rem a los lados para dar amplitud */
+    text-align: center;
+    /* Centra todo el texto dentro del banner */
+    border-bottom: 2px solid var(--color-dorado);
+    /* Línea dorada elegante abajo */
+}
+
+/* Contenedor interno que limita el ancho del texto */
+.hero-contenido {
+    max-width: 800px;
+    /* Evita que las líneas de texto se estiren demasiado */
+    margin: 0 auto;
+    /* Centra horizontalmente el contenedor */
+}
+
+/* Título principal del sitio */
+.hero h1 {
+    font-size: 2.5rem;
+    /* Tamaño de letra grande y prominente */
+    color: var(--color-principal);
+    /* Azul oscuro elegante */
+    margin-bottom: 1rem;
+    /* Espacio abajo del título */
+    font-weight: 700;
+}
+
+/* Párrafo descriptivo debajo del título */
+.hero p {
+    font-size: 1.2rem;
+    color: #555555;
+    /* Gris medio para lectura suave */
+    margin-bottom: 2rem;
+    /* Empuja el boton hacia abajo */
+}
+
+/* Boton de llamada a la Accion (CTA) */
+.boton-primario {
+    display: inline-block;
+    /* Permite darle ancho, alto y paddings al enlace <a> */
+    background-color: var(--color-principal);
+    /* Fondo azul oscuro */
+    color: var(--color-blanco);
+    /* Texto blanco */
+    padding: 0.8rem 2rem;
+    /* Espacio interno (alto y ancho) */
+    text-decoration: none;
+    /* Quita el subrayado azul por defeto */
+    border-radius: 4px;
+    /* Bordes ligeramente redondeados */
+    font-weight: 600;
+    transition: all 0.3s ease;
+    /* Transicion suave para cuando pase el mouse */
+    border: 2px solid var(--color-principal);
+}
+
+/* Efecto al pasar el cursor sobre el botón (Hover) */
+.boton-primario:hover {
+    background-color: var(--color-dorado);
+    /* Cambia a fondo Dorado */
+    border-color:  var(--color-dorado);
+    /* Cambia el borde a dorado */
+    color: var(--color-principal);
+    /*Tono azul oscuro para el buen contraste */
+    transform: translateY(-2px);
+    /* Eleva suavemente el botón 2pixeles */
+}
