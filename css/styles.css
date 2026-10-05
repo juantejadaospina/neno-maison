@@ -262,3 +262,80 @@ body {
     background-color: var(--color-principal);
     color: var(--color-blanco);
 }
+
+/* SECCION NUESTRA CASA / SOBRE NOSOTROS */
+
+.nuestra-casa {
+    background-color: #f9fbfd;
+    padding: 4rem 2rem;
+    border-top: 1px solid #e2e8f0;
+}
+
+.nuestra-casa-contenido{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nuestra-casa h2 {
+    font-size: 2rem;
+    color: var(--color-principal);
+    margin-bottom: 1.5rem;
+}
+
+.nuestra-casa p {
+    color: #4a5568;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+/* PIE DE PÁGINA (FOOTER) */
+
+.footer {
+background-color: var(--color-principal);
+color: var(--color-blanco);
+padding: 3rem 2rem 1.5rem 2rem;
+}
+
+.footer-contenido {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-columna {
+    flex: 1;
+    min-width: 220px;
+}
+
+.footer-columna h4 {
+    font-size: 1.1rem;
+    color: var(--color-dorado);
+    margin-bottom: 1rem;
+}
+
+.footer-columna p,
+.footer-columna a {
+    color: #cbd5e1;
+    font-size: 0.95rem;
+    text-decoration: none;
+    line-height: 1.6;
+}
+
+.footer-columna a:hover {
+    color: var(--color-blanco);
+    text-decoration: underline;
+}
+
+.footer-derechos {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 1.5rem;
+    color: #94a3b8;
+    font-size: 0.85rem;
+}
