@@ -208,11 +208,14 @@ body {
 }
 
 /* Imagen del producto */
-.tarjeta-producto img {
-    width: 100%;
-    height: 260px;
-    object-fit: cover; /* Ajusta la imagen sin deformarla */
+.producto-imagen {
+    width: 100%; /* Ocupa exactamente el 100% del contenedor */
+    height: 350px; /* Define una altura adecuada fija para las tarjetas */
+    object-fit: cover; /* Ajusta la imagen sin deformarla ni estirarla */
+    object-position: center; /* Centra la imagen */
+    border-radius: 8px 8px 0 0; /* Opcional: Esquinas redondeadas arriba */
     background-color: #f4f4f4;
+    display: block;
 }
 
 /* Información dentro de la tarjeta */
