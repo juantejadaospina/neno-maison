@@ -32,7 +32,7 @@ Durante la maquetación de la sección del catálogo se presentó un desbordamie
 
 | ❌ Estado Inicial (Conflicto de Selector) | ✅ Estado Corregido (Normalización CSS) |
 | :---: | :---: |
-| <img src="./docs/screenshots/error.jpg" width="450" alt="Evidencia de error CSS y UI"> | <img src="./docs/screenshots/correccion.jpg" width="450" alt="Evidencia de correccion CSS y UI"> |
+| <img src="docs/screenshots/error.png" width="450" alt="Evidencia de error CSS y UI"> | <img src="docs/screenshots/correccion.png" width="450" alt="Evidencia de correccion CSS y UI"> |
 
 #### 📝 Diagnóstico Técnico
 1. **Causa Raíz:** En la regla CSS se usó el selector de la caja contenedora (`.tarjeta-producto`) en lugar de apuntar a la etiqueta/clase de la imagen (`.producto-imagen`). Esto provocó que los estilos de contención (`height`, `object-fit`) no se aplicaran al elemento `<img>`, desbordando las tarjetas.
